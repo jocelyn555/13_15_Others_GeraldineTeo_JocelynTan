@@ -73,6 +73,22 @@ top3CountriesMean = sortTop3Countries.median()
 print("Median of the top 3 other countries:", top3CountriesMean)
 
 
+
+
+# total sum of all other countries
+allCountries = calculateSum.sum()
+print('Total sum of all countries:', allCountries)
+
+#mean of all other countries
+allCountries = calculateSum.mean()
+print('Total mean of all countries:', round(allCountries, 1))
+
+#median of all other countries
+allCountries = calculateSum.median()
+print('Median of all countries:', allCountries)
+
+
+
 # Unit Testing
 class Testing:
     def add(num1, num2, num3):
